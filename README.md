@@ -18,4 +18,12 @@ git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs
 
 There is now a **install.sh** in the cloned folder, that will move everything in the right place
 
+Go where **install.sh** is located
+```
+cd 
+```
+
+Now make the install script **executable**
+```
+chmod +x 
 ```
