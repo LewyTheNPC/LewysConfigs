@@ -20,10 +20,10 @@ There is now a **install.sh** in the cloned folder, that will move everything in
 
 Go where **install.sh** is located
 ```
-cd 
+cd ~/LewysConfigs/LewysHyprLock
 ```
 
 Now make the install script **executable**
 ```
-chmod +x 
+chmod +x ~/install.sh
 ```
