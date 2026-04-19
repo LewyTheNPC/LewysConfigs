@@ -36,3 +36,8 @@ ls -l ~/install.sh
 
 
 ### <ins>Run the installation script</ins>
+
+Now you have to run **install.sh** to move everything in place
+```
+~/install.sh
+```
