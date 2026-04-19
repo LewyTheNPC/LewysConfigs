@@ -1,6 +1,6 @@
 # Installation
 
-To install the whole repository
+To install the whole repository:
 ```
 git clone https://github.com/LewyTheNPC/LewysConfigs
 ```
