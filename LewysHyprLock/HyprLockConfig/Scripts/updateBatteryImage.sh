@@ -7,7 +7,7 @@ else
     PERCENT=$(cat /sys/class/power_supply/BAT0/capacity)
 fi
 
-IMG_DIR="/home/lewy/.config/hypr/HyprPictures/HyprLock/Battery"
+IMG_DIR="/home/lewy/.config/hypr/HyprLockConfig/Pictures/Battery"
 TARGET="$IMG_DIR/temp.png"
 
 if [ "$PERCENT" -le 20 ]; then
