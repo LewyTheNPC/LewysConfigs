@@ -41,7 +41,12 @@ ls -l ~/install.sh
 
 ### <ins>(optional) Finishing steps</ins>
 
+These steps are optional to make this configuration work, but are recomended
+
 1. Remove the installed repository to not waste space
 ```
 rm -rf ~/LewysConfigs/LewysHyprLock
 ```
+
+2. (highly recomended) add automatic update script
+...
