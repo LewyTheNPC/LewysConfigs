@@ -15,9 +15,9 @@ git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs
 ```
 
 
-### <ins>Make the install.sh executable</ins>
+### <ins>Make the install.sh executable and run it</ins>
 
-There is now a **install.sh** in the cloned folder, that will move everything in the right place, but you have to make it executable 
+There is now a **install.sh** in the cloned folder, that will move everything in the right place, but you have to make it executable, then run it
 
 1. Go where **install.sh** is located
 ```
@@ -34,14 +34,13 @@ chmod +x ~/install.sh
 ls -l ~/install.sh
 ```
 
-
-### <ins>Run the installation script</ins>
-
-Now you have to run **install.sh** to move everything in place
+4. Now you have to run **install.sh** to move everything in place
 ```
 ~/install.sh
 ```
 
 ### <ins>Finishing steps</ins>
 
-
+```
+rm -rf 
+```
