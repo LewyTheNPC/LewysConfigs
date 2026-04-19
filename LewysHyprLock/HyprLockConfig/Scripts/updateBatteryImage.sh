@@ -8,7 +8,7 @@ else
 fi
 
 IMG_DIR="/home/lewy/.config/hypr/HyprLockConfig/Pictures/Battery"
-TARGET="$IMG_DIR/temp.png"
+TARGET="$IMG_DIR/activeBattery.png"
 
 if [ "$PERCENT" -le 20 ]; then
     ICON="lock(Battery20).png"
