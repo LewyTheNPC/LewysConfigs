@@ -18,12 +18,12 @@ git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs
 
 There is now a **install.sh** in the cloned folder, that will move everything in the right place
 
-Go where **install.sh** is located
+1. Go where **install.sh** is located
 ```
 cd ~/LewysConfigs/LewysHyprLock
 ```
 
-Now make the install script **executable**
+2. Now make the install script **executable**
 ```
 chmod +x ~/install.sh
 ```
