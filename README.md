@@ -39,8 +39,9 @@ ls -l ~/install.sh
 ~/install.sh
 ```
 
-### <ins>Finishing steps</ins>
+### <ins>(optional) Finishing steps</ins>
 
+1. Remove the installed repository to not waste space
 ```
 rm -rf ~/LewysConfigs/LewysHyprLock
 ```
