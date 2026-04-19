@@ -42,5 +42,5 @@ ls -l ~/install.sh
 ### <ins>Finishing steps</ins>
 
 ```
-rm -rf 
+rm -rf ~/LewysConfigs/LewysHyprLock
 ```
