@@ -42,6 +42,6 @@ Now you have to run **install.sh** to move everything in place
 ~/install.sh
 ```
 
-### Finishing steps
+### <ins>Finishing steps</ins>
 
 
