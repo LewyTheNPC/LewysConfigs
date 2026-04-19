@@ -7,7 +7,7 @@ git clone https://github.com/LewyTheNPC/LewysConfigs
 
 ## HyprLock
 
-### Clone the LewysHyprLock folder
+### __Clone the LewysHyprLock folder__
 
 This will **only** clone the folder with the HyprLock configuration
 ```
