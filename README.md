@@ -1,13 +1,13 @@
 # Installation
-[A link to that custom anchor](#my-custom-anchor-point)
+[HyprLock](#hyprlock)
 
 To install the whole repository:
 ```
 git clone https://github.com/LewyTheNPC/LewysConfigs
 ```
 
-## HyprLock
-<a name="my-custom-anchor-point"></a>
+## HyprLock <a name="hyprlock"></a>
+
 ### <ins>Clone the LewysHyprLock folder</ins>
 
 This will **only** clone the folder with the HyprLock configuration
