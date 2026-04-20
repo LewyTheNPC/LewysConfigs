@@ -10,7 +10,7 @@ To install the whole repository:
 git clone https://github.com/LewyTheNPC/LewysConfigs
 ```
 
-## HyprLock <a name="hyprlock"></a>
+## HyprLock
 
 ### 1. <ins>Clone the LewysHyprLock folder</ins>
 
