@@ -1,4 +1,5 @@
 # Installation
+### Anchors to different installations
 [HyprLock](#hyprlock)
 
 To install the whole repository:
