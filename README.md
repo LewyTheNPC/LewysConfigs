@@ -3,7 +3,7 @@ Anchors to different installations:
 - [HyprLock](#hyprlock)
 
 To install the whole repository:
-```
+```bash
 git clone https://github.com/LewyTheNPC/LewysConfigs
 ```
 
@@ -12,7 +12,7 @@ git clone https://github.com/LewyTheNPC/LewysConfigs
 ### 1. <ins>Clone the LewysHyprLock folder</ins>
 
 This will **only** clone the folder with the HyprLock configuration
-```
+```bash
 git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs.git && cd LewysConfigs && git sparse-checkout set LewysHyprLock && git checkout main
 ```
 
@@ -21,22 +21,22 @@ git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs
 There is now a **install.sh** in the cloned folder, that will move everything in the right place, but you have to make it executable, then run it
 
 - Go where **install.sh** is located
-```
+```bash
 cd ~/LewysConfigs/LewysHyprLock
 ```
 
 - Now make the install script **executable**
-```
+```bash
 chmod +x ~/install.sh
 ```
 
 - (Optional) check if **install.sh** is executable
-```
+```bash
 ls -l ~/install.sh
 ```
 
 - Now you have to run **install.sh** to move everything in place
-```
+```bash
 ~/install.sh
 ```
 
@@ -44,7 +44,7 @@ ls -l ~/install.sh
 
 So that the configuration will work on your monitors, you should change the **$monitor = x** variable, so it fits your setup. You can find the configuration in **~/.config/hypr/HyprLockConfig/var.conf**.
 After setting your monitor variables, run the **updateVar.sh** script:
-```
+```bash
 ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh
 ```
 
@@ -53,20 +53,20 @@ After setting your monitor variables, run the **updateVar.sh** script:
 These steps are optional to make this configuration work, but are recomended
 
 1. **Remove the installed repository to not waste space**
-```
+```bash
 rm -rf ~/LewysConfigs/LewysHyprLock
 ```
 
 2. **(highly recomended) Add automatic update script**
 so that you don't need to run the **updateVar.sh** script manualy, just add it to the keybind and HyprIdle (I also recomend using a grace period for HyprLock)
 - HyprLand Keybind example (2 seconds of grace)
-```hyprlang
+```bash
 $lockscreen = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 2
 ```
-```hyprlang
+```bash
 bind = $mainMod, L, exec, $lockscreen
 ```
-- HyprIdle
+- HyprIdle (15 seconds of grace)
 ```bash
 listener {
     timeout = 300                                 # 5min
