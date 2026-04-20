@@ -1,6 +1,7 @@
 # Installation
 Anchors to different installations:
-- [HyprLock](#hyprlock) ([HyprLockImage](#HyprLockImage))
+- [HyprLock](#hyprlock)
+        ([Showcase](#HyprLockImage))
 
 To install the whole repository:
 ```bash
