@@ -1,6 +1,6 @@
 # Installation
 Anchors to different installations:
-- [HyprLock](#hyprlock) ([Image](#HyprLockImage))
+- [HyprLock](#hyprlock) ([Showcase](#HyprLockImage))
 
 To install the whole repository:
 ```bash
@@ -76,4 +76,4 @@ listener {
 }
 ```
 
-### Image <a name="HyprLockImage"></a>
+### 5. Showcase <a name="HyprLockImage"></a>
