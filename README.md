@@ -79,7 +79,7 @@ listener {
 }
 ```
 
-## Showcases <a name="HyprLockImage"></a>
+## Showcases
 
-### <ins>HyprLock Showcase</ins>
+### <ins>HyprLock Showcase</ins> <a name="HyprLockShowcase"></a>
 ![HyprLockShowcase](https://github.com/LewyTheNPC/LewysConfigs/blob/51b8abf24620e8c7828e5bf8ca3d4ab08eed150e/Showcases/HyprLockShowcase.png)
