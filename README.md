@@ -52,17 +52,25 @@ After setting your monitor variables, run the **updateVar.sh** script:
 
 These steps are optional to make this configuration work, but are recomended
 
-1. Remove the installed repository to not waste space
+1. **Remove the installed repository to not waste space**
 ```
 rm -rf ~/LewysConfigs/LewysHyprLock
 ```
 
-2. (highly recomended) add automatic update script
+2. **(highly recomended) Add automatic update script**
 so that you don't need to run the **updateVar.sh** script manualy, just add it to the keybind and HyprIdle (I also recomend using a grace period for HyprLock)
 - HyprLand Keybind example (2 seconds of grace)
-```
+```hyprlang
 $lockscreen = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 2
 ```
-```
+```hyprlang
 bind = $mainMod, L, exec, $lockscreen
+```
+- HyprIdle
+```hyprlang
+listener {
+    timeout = 300                                 # 5min
+    on-timeout = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 15
+    #on-timeout = loginctl lock-session            # lock screen when timeout has passed
+}
 ```
