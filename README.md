@@ -59,7 +59,7 @@ rm -rf ~/LewysConfigs/LewysHyprLock
 
 2. **(highly recomended) Add automatic update script**
 
-so that you don't need to run the **updateVar.sh** script manualy, just add it to the keybind and HyprIdle (I also recomend using a grace period for HyprLock)
+So that you don't need to run the **updateVar.sh** script manualy, just add it to the keybind and HyprIdle (I also recomend using a grace period for HyprLock)
 - HyprLand Keybind example (2 seconds of grace)
 ```bash
 $lockscreen = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 2
