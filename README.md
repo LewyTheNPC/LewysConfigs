@@ -1,6 +1,6 @@
 # Installation
 Anchors to different installations:
-- [HyprLock](#hyprlock)
+- [HyprLock](#hyprlock) ([Image](#HyprLockImage))
 
 To install the whole repository:
 ```bash
@@ -75,3 +75,5 @@ listener {
     #on-timeout = loginctl lock-session            # lock screen when timeout has passed
 }
 ```
+
+### Image <a name="HyprLockImage"></a>
