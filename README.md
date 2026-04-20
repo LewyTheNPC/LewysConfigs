@@ -67,7 +67,7 @@ $lockscreen = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --g
 bind = $mainMod, L, exec, $lockscreen
 ```
 - HyprIdle
-```hyprlang
+```bash
 listener {
     timeout = 300                                 # 5min
     on-timeout = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 15
