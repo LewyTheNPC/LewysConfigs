@@ -40,7 +40,15 @@ ls -l ~/install.sh
 ~/install.sh
 ```
 
-### 3. <ins>(optional) Finishing steps</ins>
+### 3. <ins>Update the configuration</ins>
+
+So that the configuration will work on your monitors, you should change the **$monitor = x** variable, so it fits your setup. You can find the configuration in **~/.config/hypr/HyprLockConfig/var.conf**.
+After setting your monitor variables, run the **updateVar.sh** script:
+```
+~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh
+```
+
+### 4. <ins>(optional) Finishing steps</ins>
 
 These steps are optional to make this configuration work, but are recomended
 
@@ -50,4 +58,11 @@ rm -rf ~/LewysConfigs/LewysHyprLock
 ```
 
 2. (highly recomended) add automatic update script
-...
+so that you don't need to run the **updateVar.sh** script manualy, just add it to the keybind and HyprIdle (I also recomend using a grace period for HyprLock)
+- HyprLand Keybind example (2 seconds of grace)
+```
+$lockscreen = ~/.config/hypr/HyprLockConfig/Scripts/updateVar.sh && hyprlock --grace 2
+```
+```
+bind = $mainMod, L, exec, $lockscreen
+```
