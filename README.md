@@ -14,8 +14,6 @@ This will **only** clone the folder with the HyprLock configuration
 git clone --filter=blob:none --sparse https://github.com/LewyTheNPC/LewysConfigs.git && cd LewysConfigs && git sparse-checkout set LewysHyprLock && git checkout main
 ```
 
-
-
 ### <ins>Make the install.sh executable and run it</ins>
 
 There is now a **install.sh** in the cloned folder, that will move everything in the right place, but you have to make it executable, then run it
@@ -39,8 +37,6 @@ ls -l ~/install.sh
 ```
 ~/install.sh
 ```
-
-
 
 ### <ins>(optional) Finishing steps</ins>
 
