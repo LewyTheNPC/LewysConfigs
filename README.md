@@ -76,4 +76,7 @@ listener {
 }
 ```
 
-### 5. Showcase <a name="HyprLockImage"></a>
+## Showcase <a name="HyprLockImage"></a>
+
+### HyprLock
+[image alt]
